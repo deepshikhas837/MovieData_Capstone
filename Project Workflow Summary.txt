@@ -1,0 +1,81 @@
+NO. OF FILES INCLUDED-
+
+tmdb_movies.csv - Original movie dataset
+movie_data_normalized- Folder with normalized csv format data
+movie_data_normalized.xlsx - Excel file containing multiple sheets of normalized dataset.
+movie data presentation.pptx - Presentation of Movie data insights and predictions
+Movie Data_Focus areas 1_5_6.twbx- Tableau file for focus areas 1, 5 and 6.
+Movie Data_Focus areas 3 and 4.sql- MySQL file for focus areas 3 and 4.
+Movie Data_Focus areas 2_7_8_9_10.ipynb- Jupyter notebook file for focus areas 2, 7, 8, 9 and 10..
+Project Workflow Summary.txt - Notepad file containing workflow and files information.
+
+
+
+---------------------------------------------------------------------------------------
+
+
+
+Project Workflow Summary
+
+
+a) Data Preprocessing (Python)
+Treated outliers and cleaned inconsistencies.
+Normalized numeric fields for modeling.
+Exported clean data into .xlsx and .csv formats for analysis.
+
+
+b) Focus Areas & Tools Used
+
+
+Focus Area 1: Box Office Performance
+Tool: Tableau
+→ Visualized revenue trends and performance metrics.
+
+Focus Area 2: Genre Analysis
+Tool: Python (Matplotlib, Seaborn)
+→ Identified profitable and popular genres.
+
+Focus Area 3: Director & Cast Influence
+Tool: MySQL
+→ Created movies_sqldb from cleaned CSVs to explore performance based on key talent.
+
+Focus Area 4: Language & Market Reach
+Tool: MySQL
+→ Analyzed revenue and popularity by language and country reach.
+
+Focus Area 5: Release Timing & Success Patterns
+Tool: Tableau
+→ Evaluated seasonal and monthly patterns in movie success.
+
+Focus Area 6: Production House Trends
+Tool: Tableau
+→ Compared revenue and genre strengths across studios.
+
+Focus Area 7: Budget & Revenue Analysis
+Tool: Python (Statsmodels, Seaborn, Hypothesis Testing)
+→ Explored budget vs. profit relationships using t-tests and z-tests.
+
+Focus Area 8: Audience & Critics Analysis
+Tool: Python (Logistic Classification, Matplotlib, Seaborn)
+→ Built a model to classify movies into rating categories.
+
+Focus Area 9: Viewer Demographics & Preferences
+Tool: Python (KMeans Clustering)
+→ Grouped viewers by preferences, genres, and behavior patterns.
+
+Focus Area 10: Revenue Predictions
+Tool: Python (Linear Regression, KNN, Random Forest)
+→ Built models to forecast movie revenue based on data.
+ 
+
+
+c) Final Presentation:
+Created a PowerPoint deck summarizing each focus area.
+Explained Business objectives with Visualizations & interpretations
+Exported graphs/charts from Jupyter Notebook and interactive dashboards from Tableau.
+Included Project Objectives, Key Findings, Conclusion, and Strategic Suggestions.
+
+
+
+
+
